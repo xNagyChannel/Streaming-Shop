@@ -4,7 +4,7 @@ var prefix = "+";
 var adminprefix = '*'
 
 
-const developers = ["452513830270926870"]
+const developers = ["452513830270926870","465989498023706640"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
